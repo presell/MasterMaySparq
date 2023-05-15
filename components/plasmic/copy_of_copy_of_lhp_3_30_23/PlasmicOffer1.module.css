@@ -1,0 +1,240 @@
+.root {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  position: relative;
+  box-shadow: none;
+  min-width: 0;
+  padding: 8px;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .root {
+    padding: 0px;
+  }
+}
+.freeBox___7P3Oy {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  padding: 8px;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .freeBox___7P3Oy {
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+}
+.freeBox__o3WEs {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  margin-right: 30px;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .freeBox__o3WEs {
+    margin-right: 0px;
+    height: auto;
+  }
+}
+.img__tboqg {
+  position: relative;
+  object-fit: contain;
+  max-width: 100%;
+  width: auto;
+  height: 423px;
+  margin-right: 0;
+  flex-shrink: 0;
+}
+.img__tboqg > picture > img {
+  object-fit: contain;
+}
+.img__tboqg > :global(.__wab_img-spacer) > img {
+  object-fit: contain;
+}
+.freeBox__xAPoY {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  padding: 8px;
+}
+.offerH1 {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 800px;
+  padding-bottom: 0px;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+.slotTargetSlot3 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #f62929;
+  text-align: center;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .slotTargetSlot3 {
+    font-size: 23px;
+  }
+}
+.offerH12 {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 800px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+.slotTargetSlot4 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #202428;
+  text-align: center;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .slotTargetSlot4 {
+    font-size: 14px;
+  }
+}
+.freeBox__g0QIk {
+  position: relative;
+  width: 350px;
+  height: auto;
+  max-width: 800px;
+  margin-bottom: 25px;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .freeBox__g0QIk {
+    width: 225px;
+    margin-bottom: 10px;
+    padding-bottom: 0px;
+  }
+}
+.slotTargetSlot5 {
+  font-size: 18px;
+  color: #000000;
+  text-align: center;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .slotTargetSlot5 {
+    font-size: 12px;
+  }
+}
+.freeBox___9XmIs {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 800px;
+  display: flex;
+  flex-direction: row;
+}
+.slotTargetSlot6 {
+  font-size: 15px;
+  font-weight: 700;
+  color: #000000;
+}
+.freeBox__hteWb {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+  padding: 8px;
+}
+.freeBox__uEgQg {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  max-width: 100%;
+  width: 90px;
+  margin-right: 25px;
+  flex-shrink: 0;
+  padding: 8px 0px;
+}
+.img__mlFfs {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  width: 60px;
+  height: 60px;
+  flex-shrink: 0;
+}
+.img__mlFfs > picture > img {
+  object-fit: cover;
+}
+.img__mlFfs > :global(.__wab_img-spacer) > img {
+  object-fit: cover;
+}
+.text__eDpmA {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  text-align: center;
+  color: #626262;
+  min-width: 0;
+}
+.freeBox__geOG {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90px;
+  height: auto;
+  max-width: 100%;
+  flex-shrink: 0;
+  padding: 8px 0px;
+}
+.img__vfIrk {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  width: 60px;
+  height: 60px;
+  flex-shrink: 0;
+}
+.img__vfIrk > picture > img {
+  object-fit: cover;
+}
+.img__vfIrk > :global(.__wab_img-spacer) > img {
+  object-fit: cover;
+}
+.text__uR5 {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  text-align: center;
+  color: #626262;
+  min-width: 0;
+}
