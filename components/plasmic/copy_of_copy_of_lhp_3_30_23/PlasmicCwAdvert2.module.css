@@ -1226,10 +1226,220 @@
     font-size: 21px;
   }
 }
+.offerMobile {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  align-self: flex-end;
+  margin-bottom: 30px;
+  min-width: 0;
+  padding: 4px;
+  border: 5px solid #e4e4da;
+}
+.freeBox__qFh0B {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: auto;
+  height: auto;
+  margin-right: 0px;
+  padding: 0px;
+}
+.link__bdd7 {
+  position: relative;
+  display: flex;
+  width: auto;
+  height: auto;
+}
+.img__mfx1O {
+  object-fit: contain;
+  width: 120px;
+  height: auto;
+  flex-shrink: 0;
+}
+.img__mfx1O > picture > img {
+  object-fit: contain;
+}
+.img__mfx1O > :global(.__wab_img-spacer) > img {
+  object-fit: contain;
+}
+.freeBox__dJq2S {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: auto;
+  height: auto;
+  max-width: 210px;
+  padding: 0px;
+  margin: 0px;
+}
+.text__hulKx {
+  position: relative;
+  height: auto;
+  color: #f62929;
+  font-size: 23px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.text__v17O {
+  position: relative;
+  height: auto;
+  color: #202428;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.text__q3Dbp {
+  position: relative;
+  height: auto;
+  color: #000000;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.button___1I6K {
+  position: relative;
+  width: 100%;
+  height: 51px;
+  margin-top: 6px;
+  margin-bottom: 10px;
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: #ffffff;
+  background: #7ec00a;
+  max-width: 298px;
+  min-width: 0;
+  flex-shrink: 0;
+  border-radius: 5px;
+}
+.offerDesktop {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  margin-bottom: 30px;
+  min-width: 0;
+  padding: 20px;
+  border: 5px solid #e4e4da;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .offerDesktop {
+    display: none;
+  }
+}
+.freeBox__qqVwF {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  margin-right: 50px;
+  padding: 0px;
+}
+.link___333Ap {
+  position: relative;
+  display: flex;
+}
+.img__h0CmF {
+  object-fit: contain;
+  max-width: 300px;
+  height: 423px;
+}
+.img__h0CmF > picture > img {
+  object-fit: contain;
+}
+.img__h0CmF > :global(.__wab_img-spacer) > img {
+  object-fit: contain;
+}
+.freeBox__gjJvC {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+.text__yFpsc {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 350px;
+  color: #f62929;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 10px;
+  min-width: 0;
+}
+.text__slwZg {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 350px;
+  color: #202428;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 10px;
+  min-width: 0;
+}
+.text__pIpp {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 350px;
+  color: #000000;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 10px;
+  min-width: 0;
+}
+.button__ytBtj {
+  position: relative;
+  width: 100%;
+  height: 51px;
+  margin-top: 6px;
+  margin-bottom: 10px;
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: #ffffff;
+  background: #7ec00a;
+  max-width: 298px;
+  min-width: 0;
+  flex-shrink: 0;
+  border-radius: 5px;
+}
 .offer2:global(.__wab_instance) {
   max-width: 100%;
   position: relative;
   margin-bottom: 30px;
+  display: none;
 }
 .link__fOq1K {
   position: relative;

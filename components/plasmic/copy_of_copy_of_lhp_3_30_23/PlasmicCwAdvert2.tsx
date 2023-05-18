@@ -111,6 +111,8 @@ export type PlasmicCwAdvert2__OverridesType = {
   paragraph26?: p.Flex<"div">;
   h25?: p.Flex<"div">;
   h35?: p.Flex<"div">;
+  offerMobile?: p.Flex<"div">;
+  offerDesktop?: p.Flex<"div">;
   offer2?: p.Flex<typeof Offer2>;
   image5?: p.Flex<typeof p.PlasmicImg>;
   paragraph6?: p.Flex<"div">;
@@ -1527,82 +1529,338 @@ function PlasmicCwAdvert2__RenderFunc(props: {
                 </span>
               </React.Fragment>
             </div>
-            <Offer2
-              data-plasmic-name={"offer2"}
-              data-plasmic-override={overrides.offer2}
-              className={classNames("__wab_instance", sty.offer2)}
-              slot3={
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__knKuD
-                  )}
-                >
-                  {"SPECIAL OFFER"}
-                </div>
-              }
-              slot4={
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__yoU26
-                  )}
-                >
-                  {"FREE VITAMIN AIR"}
-                </div>
-              }
-              slot5={
-                "Money-Back Guarantee: Better Flavor & Harder Hits or Your Money Back."
-              }
-              slot7={
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__irMp
-                  )}
-                >
-                  {hasVariant(globalVariants, "screen", "mobileOnly")
-                    ? "CLAIM FREE DEVICE 👉"
-                    : "CLAIM FREE DEVICE 👉"}
-                </div>
-              }
-            >
-              <p.PlasmicLink
-                className={classNames(
-                  projectcss.all,
-                  projectcss.a,
-                  sty.link__fOq1K
-                )}
-                component={Link}
-                href={`/disposable-offer`}
-                platform={"nextjs"}
+            {(
+              hasVariant(globalVariants, "screen", "mobileOnly") ? true : false
+            ) ? (
+              <div
+                data-plasmic-name={"offerMobile"}
+                data-plasmic-override={overrides.offerMobile}
+                className={classNames(projectcss.all, sty.offerMobile)}
               >
-                <p.PlasmicImg
-                  alt={""}
-                  className={classNames(sty.img__yEsmc)}
-                  displayHeight={
-                    hasVariant(globalVariants, "screen", "mobileOnly")
-                      ? ("auto" as const)
-                      : ("422px" as const)
-                  }
-                  displayMaxHeight={"none" as const}
-                  displayMaxWidth={"100%" as const}
-                  displayMinHeight={"0" as const}
-                  displayMinWidth={"0" as const}
-                  displayWidth={"auto" as const}
-                  loading={"lazy" as const}
-                  src={{
-                    src: "/plasmic/copy_of_copy_of_lhp_3_30_23/images/offersvg.svg",
-                    fullWidth: 76,
-                    fullHeight: 150,
-                    aspectRatio: 0.503546
-                  }}
-                />
-              </p.PlasmicLink>
-            </Offer2>
+                <div className={classNames(projectcss.all, sty.freeBox__qFh0B)}>
+                  <p.PlasmicLink
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.a,
+                      sty.link__bdd7
+                    )}
+                    component={Link}
+                    href={`/disposable-offer`}
+                    platform={"nextjs"}
+                  >
+                    <p.PlasmicImg
+                      alt={""}
+                      className={classNames(sty.img__mfx1O)}
+                      displayHeight={"auto" as const}
+                      displayMaxHeight={"none" as const}
+                      displayMaxWidth={"none" as const}
+                      displayMinHeight={"0" as const}
+                      displayMinWidth={"0" as const}
+                      displayWidth={"120px" as const}
+                      loading={"lazy" as const}
+                      src={{
+                        src: "/plasmic/copy_of_copy_of_lhp_3_30_23/images/offersvg.svg",
+                        fullWidth: 76,
+                        fullHeight: 150,
+                        aspectRatio: 0.503546
+                      }}
+                    />
+                  </p.PlasmicLink>
+                </div>
+                <div className={classNames(projectcss.all, sty.freeBox__dJq2S)}>
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__hulKx
+                    )}
+                  >
+                    {"SPECIAL OFFER"}
+                  </div>
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__v17O
+                    )}
+                  >
+                    {"FREE VITAMIN AIR"}
+                  </div>
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__q3Dbp
+                    )}
+                  >
+                    {
+                      "Money-Back Guarantee: Better Flavor & Harder Hits or Your Money Back."
+                    }
+                  </div>
+                  <button
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.button,
+                      projectcss.__wab_text,
+                      sty.button___1I6K
+                    )}
+                    onClick={async event => {
+                      const $steps = {};
+                      $steps["goToCollection13"] = true
+                        ? (() => {
+                            const actionArgs = {
+                              destination: __wrapUserFunction(
+                                {
+                                  type: "InteractionArgLoc",
+                                  actionName: "navigation",
+                                  interactionUuid: "LY7UIsfcrX9",
+                                  componentUuid: "UsYWXw6QCqj7Ct3",
+                                  argName: "destination"
+                                },
+                                () => `/disposable-offer`
+                              )
+                            };
+                            return __wrapUserFunction(
+                              {
+                                type: "InteractionLoc",
+                                actionName: "navigation",
+                                interactionUuid: "LY7UIsfcrX9",
+                                componentUuid: "UsYWXw6QCqj7Ct3"
+                              },
+                              () =>
+                                (({ destination }) => {
+                                  __nextRouter?.push(destination);
+                                })?.apply(null, [actionArgs]),
+                              actionArgs
+                            );
+                          })()
+                        : undefined;
+                      if (
+                        typeof $steps["goToCollection13"] === "object" &&
+                        typeof $steps["goToCollection13"].then === "function"
+                      ) {
+                        $steps["goToCollection13"] = await __wrapUserPromise(
+                          {
+                            type: "InteractionLoc",
+                            actionName: "navigation",
+                            interactionUuid: "LY7UIsfcrX9",
+                            componentUuid: "UsYWXw6QCqj7Ct3"
+                          },
+                          $steps["goToCollection13"]
+                        );
+                      }
+                    }}
+                  >
+                    {"CLAIM FREE DEVICE  👉"}
+                  </button>
+                </div>
+              </div>
+            ) : null}
+            {(
+              hasVariant(globalVariants, "screen", "mobileOnly") ? true : true
+            ) ? (
+              <div
+                data-plasmic-name={"offerDesktop"}
+                data-plasmic-override={overrides.offerDesktop}
+                className={classNames(projectcss.all, sty.offerDesktop)}
+              >
+                <div className={classNames(projectcss.all, sty.freeBox__qqVwF)}>
+                  <p.PlasmicLink
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.a,
+                      sty.link___333Ap
+                    )}
+                    component={Link}
+                    href={`/disposable-offer`}
+                    platform={"nextjs"}
+                  >
+                    <p.PlasmicImg
+                      alt={""}
+                      className={classNames(sty.img__h0CmF)}
+                      displayHeight={"423px" as const}
+                      displayMaxHeight={"none" as const}
+                      displayMaxWidth={"300px" as const}
+                      displayMinHeight={"0" as const}
+                      displayMinWidth={"0" as const}
+                      displayWidth={"auto" as const}
+                      loading={"lazy" as const}
+                      src={{
+                        src: "/plasmic/copy_of_copy_of_lhp_3_30_23/images/offersvg.svg",
+                        fullWidth: 76,
+                        fullHeight: 150,
+                        aspectRatio: 0.503546
+                      }}
+                    />
+                  </p.PlasmicLink>
+                </div>
+                <div className={classNames(projectcss.all, sty.freeBox__gjJvC)}>
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__yFpsc
+                    )}
+                  >
+                    {"SPECIAL OFFER"}
+                  </div>
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__slwZg
+                    )}
+                  >
+                    {"FREE VITAMIN AIR"}
+                  </div>
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__pIpp
+                    )}
+                  >
+                    {
+                      "Money-Back Guarantee: Better Flavor & Harder Hits or Your Money Back."
+                    }
+                  </div>
+                  <button
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.button,
+                      projectcss.__wab_text,
+                      sty.button__ytBtj
+                    )}
+                    onClick={async event => {
+                      const $steps = {};
+                      $steps["goToCollection13"] = true
+                        ? (() => {
+                            const actionArgs = {
+                              destination: __wrapUserFunction(
+                                {
+                                  type: "InteractionArgLoc",
+                                  actionName: "navigation",
+                                  interactionUuid: "f8MZPlIUpiC",
+                                  componentUuid: "UsYWXw6QCqj7Ct3",
+                                  argName: "destination"
+                                },
+                                () => `/disposable-offer`
+                              )
+                            };
+                            return __wrapUserFunction(
+                              {
+                                type: "InteractionLoc",
+                                actionName: "navigation",
+                                interactionUuid: "f8MZPlIUpiC",
+                                componentUuid: "UsYWXw6QCqj7Ct3"
+                              },
+                              () =>
+                                (({ destination }) => {
+                                  __nextRouter?.push(destination);
+                                })?.apply(null, [actionArgs]),
+                              actionArgs
+                            );
+                          })()
+                        : undefined;
+                      if (
+                        typeof $steps["goToCollection13"] === "object" &&
+                        typeof $steps["goToCollection13"].then === "function"
+                      ) {
+                        $steps["goToCollection13"] = await __wrapUserPromise(
+                          {
+                            type: "InteractionLoc",
+                            actionName: "navigation",
+                            interactionUuid: "f8MZPlIUpiC",
+                            componentUuid: "UsYWXw6QCqj7Ct3"
+                          },
+                          $steps["goToCollection13"]
+                        );
+                      }
+                    }}
+                  >
+                    {"CLAIM FREE DEVICE  👉"}
+                  </button>
+                </div>
+              </div>
+            ) : null}
+            {true ? (
+              <Offer2
+                data-plasmic-name={"offer2"}
+                data-plasmic-override={overrides.offer2}
+                className={classNames("__wab_instance", sty.offer2)}
+                slot3={
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__knKuD
+                    )}
+                  >
+                    {"SPECIAL OFFER"}
+                  </div>
+                }
+                slot4={
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__yoU26
+                    )}
+                  >
+                    {"FREE VITAMIN AIR"}
+                  </div>
+                }
+                slot5={
+                  "Money-Back Guarantee: Better Flavor & Harder Hits or Your Money Back."
+                }
+                slot7={
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__irMp
+                    )}
+                  >
+                    {hasVariant(globalVariants, "screen", "mobileOnly")
+                      ? "CLAIM FREE DEVICE 👉"
+                      : "CLAIM FREE DEVICE 👉"}
+                  </div>
+                }
+              >
+                <p.PlasmicLink
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.a,
+                    sty.link__fOq1K
+                  )}
+                  component={Link}
+                  href={`/disposable-offer`}
+                  platform={"nextjs"}
+                >
+                  <p.PlasmicImg
+                    alt={""}
+                    className={classNames(sty.img__yEsmc)}
+                    displayHeight={
+                      hasVariant(globalVariants, "screen", "mobileOnly")
+                        ? ("auto" as const)
+                        : ("422px" as const)
+                    }
+                    displayMaxHeight={"none" as const}
+                    displayMaxWidth={"100%" as const}
+                    displayMinHeight={"0" as const}
+                    displayMinWidth={"0" as const}
+                    displayWidth={"auto" as const}
+                    loading={"lazy" as const}
+                    src={{
+                      src: "/plasmic/copy_of_copy_of_lhp_3_30_23/images/offersvg.svg",
+                      fullWidth: 76,
+                      fullHeight: 150,
+                      aspectRatio: 0.503546
+                    }}
+                  />
+                </p.PlasmicLink>
+              </Offer2>
+            ) : null}
             {true ? (
               <p.PlasmicImg
                 data-plasmic-name={"image5"}
@@ -2439,6 +2697,8 @@ const PlasmicDescendants = {
     "paragraph26",
     "h25",
     "h35",
+    "offerMobile",
+    "offerDesktop",
     "offer2",
     "image5",
     "paragraph6",
@@ -2534,6 +2794,8 @@ const PlasmicDescendants = {
     "paragraph26",
     "h25",
     "h35",
+    "offerMobile",
+    "offerDesktop",
     "offer2",
     "image5",
     "paragraph6",
@@ -2612,6 +2874,8 @@ const PlasmicDescendants = {
     "paragraph26",
     "h25",
     "h35",
+    "offerMobile",
+    "offerDesktop",
     "offer2",
     "image5",
     "paragraph6",
@@ -2666,6 +2930,8 @@ const PlasmicDescendants = {
   paragraph26: ["paragraph26"],
   h25: ["h25"],
   h35: ["h35"],
+  offerMobile: ["offerMobile"],
+  offerDesktop: ["offerDesktop"],
   offer2: ["offer2"],
   image5: ["image5"],
   paragraph6: ["paragraph6"],
@@ -2758,6 +3024,8 @@ type NodeDefaultElementType = {
   paragraph26: "div";
   h25: "div";
   h35: "div";
+  offerMobile: "div";
+  offerDesktop: "div";
   offer2: typeof Offer2;
   image5: typeof p.PlasmicImg;
   paragraph6: "div";
@@ -2906,6 +3174,8 @@ export const PlasmicCwAdvert2 = Object.assign(
     paragraph26: makeNodeComponent("paragraph26"),
     h25: makeNodeComponent("h25"),
     h35: makeNodeComponent("h35"),
+    offerMobile: makeNodeComponent("offerMobile"),
+    offerDesktop: makeNodeComponent("offerDesktop"),
     offer2: makeNodeComponent("offer2"),
     image5: makeNodeComponent("image5"),
     paragraph6: makeNodeComponent("paragraph6"),

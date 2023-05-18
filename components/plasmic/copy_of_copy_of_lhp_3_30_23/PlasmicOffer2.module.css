@@ -4190,9 +4190,9 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  width: auto;
   height: auto;
   max-width: 100%;
+  width: auto;
   padding: 20px;
   border: 5px solid #e4e4da;
 }
@@ -7868,10 +7868,11 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  width: auto;
+  width: 100%;
   height: auto;
   max-width: 100%;
   align-self: flex-end;
+  min-width: 0;
   padding: 4px;
   border: 5px solid #e4e4da;
 }
