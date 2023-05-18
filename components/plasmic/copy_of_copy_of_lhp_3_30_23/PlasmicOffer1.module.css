@@ -1,15 +1,16 @@
 .root {
-  display: flex;
+  display: inline-flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  width: 100%;
+  width: auto;
   height: auto;
   max-width: 100%;
   position: relative;
   box-shadow: none;
-  min-width: 0;
+  justify-self: flex-start;
   padding: 8px;
+  border: 5px solid #e4e4da;
 }
 @media (min-width: 0px) and (max-width: 768px) {
   .root {
