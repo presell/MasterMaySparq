@@ -42,6 +42,7 @@ import Collection1Cta from "../../Collection1Cta"; // plasmic-import: _J7qP3sisz
 import SqueezeForm from "../../SqueezeForm"; // plasmic-import: tdmOh6uO2Zoq8d/component
 import Collection12 from "../../Collection12"; // plasmic-import: L_Do75x7nPR-ad/component
 import CwAdvert2 from "../../CwAdvert2"; // plasmic-import: UsYWXw6QCqj7Ct3/component
+import Offer2 from "../../Offer2"; // plasmic-import: 6O_sz714mBswDr/component
 
 import { useScreenVariants as useScreenVariantsrolQiFvOio8R1Y } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: ROLQiFvOIO8r1y/globalVariant
 
@@ -89,6 +90,7 @@ export type PlasmicCollection8__OverridesType = {
   squeezeForm?: p.Flex<typeof SqueezeForm>;
   collection12?: p.Flex<typeof Collection12>;
   cwAdvert2?: p.Flex<typeof CwAdvert2>;
+  offer2?: p.Flex<typeof Offer2>;
 };
 
 export interface DefaultCollection8Props {}
@@ -1517,6 +1519,11 @@ function PlasmicCollection8__RenderFunc(props: {
               className={classNames("__wab_instance", sty.cwAdvert2)}
             />
           ) : null}
+          <Offer2
+            data-plasmic-name={"offer2"}
+            data-plasmic-override={overrides.offer2}
+            className={classNames("__wab_instance", sty.offer2)}
+          />
         </div>
       </div>
     </React.Fragment>
@@ -1553,7 +1560,8 @@ const PlasmicDescendants = {
     "products",
     "squeezeForm",
     "collection12",
-    "cwAdvert2"
+    "cwAdvert2",
+    "offer2"
   ],
   logo2: ["logo2"],
   logo: ["logo"],
@@ -1609,7 +1617,8 @@ const PlasmicDescendants = {
   products: ["products"],
   squeezeForm: ["squeezeForm"],
   collection12: ["collection12"],
-  cwAdvert2: ["cwAdvert2"]
+  cwAdvert2: ["cwAdvert2"],
+  offer2: ["offer2"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
 type DescendantsType<T extends NodeNameType> =
@@ -1644,6 +1653,7 @@ type NodeDefaultElementType = {
   squeezeForm: typeof SqueezeForm;
   collection12: typeof Collection12;
   cwAdvert2: typeof CwAdvert2;
+  offer2: typeof Offer2;
 };
 
 type ReservedPropsType = "variants" | "args" | "overrides";
@@ -1734,6 +1744,7 @@ export const PlasmicCollection8 = Object.assign(
     squeezeForm: makeNodeComponent("squeezeForm"),
     collection12: makeNodeComponent("collection12"),
     cwAdvert2: makeNodeComponent("cwAdvert2"),
+    offer2: makeNodeComponent("offer2"),
 
     // Metadata about props expected for PlasmicCollection8
     internalVariantProps: PlasmicCollection8__VariantProps,

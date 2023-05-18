@@ -42,6 +42,7 @@ import { DataFetcher } from "@plasmicpkgs/plasmic-query"; // plasmic-import: ae7
 import BodyArticle1 from "../../BodyArticle1"; // plasmic-import: tATSIvg-wEr20C/component
 import BodyArticle2 from "../../BodyArticle2"; // plasmic-import: v04wyjw104Scyc/component
 import CwAdvert2 from "../../CwAdvert2"; // plasmic-import: UsYWXw6QCqj7Ct3/component
+import Offer22 from "../../Offer2"; // plasmic-import: 6O_sz714mBswDr/component
 
 import { useScreenVariants as useScreenVariantsrolQiFvOio8R1Y } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: ROLQiFvOIO8r1y/globalVariant
 
@@ -112,7 +113,6 @@ export type PlasmicArticle3Bv__OverridesType = {
   paragraph410?: p.Flex<"div">;
   h25?: p.Flex<"div">;
   h35?: p.Flex<"div">;
-  offer2?: p.Flex<typeof Offer2>;
   image5?: p.Flex<typeof p.PlasmicImg>;
   paragraph6?: p.Flex<"div">;
   h26?: p.Flex<"div">;
@@ -1466,9 +1466,10 @@ function PlasmicArticle3Bv__RenderFunc(props: {
                           </React.Fragment>
                         </div>
                         <Offer2
-                          data-plasmic-name={"offer2"}
-                          data-plasmic-override={overrides.offer2}
-                          className={classNames("__wab_instance", sty.offer2)}
+                          className={classNames(
+                            "__wab_instance",
+                            sty.offer2__peUw9
+                          )}
                           slot7={
                             <div
                               className={classNames(
@@ -5291,10 +5292,15 @@ function PlasmicArticle3Bv__RenderFunc(props: {
               </ph.DataCtxReader>
             </DataFetcher>
           ) : null}
-          <CwAdvert2
-            data-plasmic-name={"cwAdvert2"}
-            data-plasmic-override={overrides.cwAdvert2}
-            className={classNames("__wab_instance", sty.cwAdvert2)}
+          {true ? (
+            <CwAdvert2
+              data-plasmic-name={"cwAdvert2"}
+              data-plasmic-override={overrides.cwAdvert2}
+              className={classNames("__wab_instance", sty.cwAdvert2)}
+            />
+          ) : null}
+          <Offer22
+            className={classNames("__wab_instance", sty.offer2__gkqBf)}
           />
         </div>
       </div>
@@ -5348,7 +5354,6 @@ const PlasmicDescendants = {
     "paragraph410",
     "h25",
     "h35",
-    "offer2",
     "image5",
     "paragraph6",
     "h26",
@@ -5597,7 +5602,6 @@ const PlasmicDescendants = {
     "paragraph410",
     "h25",
     "h35",
-    "offer2",
     "image5",
     "paragraph6",
     "h26",
@@ -5670,7 +5674,6 @@ const PlasmicDescendants = {
     "paragraph410",
     "h25",
     "h35",
-    "offer2",
     "image5",
     "paragraph6",
     "h26",
@@ -5721,7 +5724,6 @@ const PlasmicDescendants = {
     "paragraph410",
     "h25",
     "h35",
-    "offer2",
     "image5",
     "paragraph6",
     "h26",
@@ -5770,7 +5772,6 @@ const PlasmicDescendants = {
   paragraph410: ["paragraph410"],
   h25: ["h25"],
   h35: ["h35"],
-  offer2: ["offer2"],
   image5: ["image5"],
   paragraph6: ["paragraph6"],
   h26: ["h26"],
@@ -7013,7 +7014,6 @@ type NodeDefaultElementType = {
   paragraph410: "div";
   h25: "div";
   h35: "div";
-  offer2: typeof Offer2;
   image5: typeof p.PlasmicImg;
   paragraph6: "div";
   h26: "div";
@@ -7315,7 +7315,6 @@ export const PlasmicArticle3Bv = Object.assign(
     paragraph410: makeNodeComponent("paragraph410"),
     h25: makeNodeComponent("h25"),
     h35: makeNodeComponent("h35"),
-    offer2: makeNodeComponent("offer2"),
     image5: makeNodeComponent("image5"),
     paragraph6: makeNodeComponent("paragraph6"),
     h26: makeNodeComponent("h26"),

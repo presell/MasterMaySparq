@@ -40,6 +40,7 @@ import Offer1 from "../../Offer1"; // plasmic-import: tIy_v0PVRisw56/component
 import Collection1 from "../../Collection1"; // plasmic-import: _ePJquMzW8mMEg/component
 import Collection1Cta from "../../Collection1Cta"; // plasmic-import: _J7qP3siszdpBj/component
 import Collection12 from "../../Collection12"; // plasmic-import: L_Do75x7nPR-ad/component
+import Offer2 from "../../Offer2"; // plasmic-import: 6O_sz714mBswDr/component
 
 import { useScreenVariants as useScreenVariantsrolQiFvOio8R1Y } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: ROLQiFvOIO8r1y/globalVariant
 
@@ -85,6 +86,7 @@ export type PlasmicCollection5__OverridesType = {
   offerCta?: p.Flex<"div">;
   products?: p.Flex<"div">;
   collection12?: p.Flex<typeof Collection12>;
+  offer2?: p.Flex<typeof Offer2>;
 };
 
 export interface DefaultCollection5Props {}
@@ -1490,10 +1492,17 @@ function PlasmicCollection5__RenderFunc(props: {
               </div>
             </div>
           ) : null}
-          <Collection12
-            data-plasmic-name={"collection12"}
-            data-plasmic-override={overrides.collection12}
-            className={classNames("__wab_instance", sty.collection12)}
+          {true ? (
+            <Collection12
+              data-plasmic-name={"collection12"}
+              data-plasmic-override={overrides.collection12}
+              className={classNames("__wab_instance", sty.collection12)}
+            />
+          ) : null}
+          <Offer2
+            data-plasmic-name={"offer2"}
+            data-plasmic-override={overrides.offer2}
+            className={classNames("__wab_instance", sty.offer2)}
           />
         </div>
       </div>
@@ -1529,7 +1538,8 @@ const PlasmicDescendants = {
     "offerParagraph",
     "offerCta",
     "products",
-    "collection12"
+    "collection12",
+    "offer2"
   ],
   logo2: ["logo2"],
   logo: ["logo"],
@@ -1583,7 +1593,8 @@ const PlasmicDescendants = {
   offerParagraph: ["offerParagraph"],
   offerCta: ["offerCta"],
   products: ["products"],
-  collection12: ["collection12"]
+  collection12: ["collection12"],
+  offer2: ["offer2"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
 type DescendantsType<T extends NodeNameType> =
@@ -1616,6 +1627,7 @@ type NodeDefaultElementType = {
   offerCta: "div";
   products: "div";
   collection12: typeof Collection12;
+  offer2: typeof Offer2;
 };
 
 type ReservedPropsType = "variants" | "args" | "overrides";
@@ -1704,6 +1716,7 @@ export const PlasmicCollection5 = Object.assign(
     offerCta: makeNodeComponent("offerCta"),
     products: makeNodeComponent("products"),
     collection12: makeNodeComponent("collection12"),
+    offer2: makeNodeComponent("offer2"),
 
     // Metadata about props expected for PlasmicCollection5
     internalVariantProps: PlasmicCollection5__VariantProps,

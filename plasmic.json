@@ -726,6 +726,19 @@
           "cssFilePath": "plasmic/copy_of_copy_of_lhp_3_30_23/PlasmicOffer2.module.css",
           "scheme": "blackbox",
           "componentType": "component"
+        },
+        {
+          "id": "xEeaFxaBMA",
+          "name": "Disposable8",
+          "type": "managed",
+          "projectId": "nufvo23EJ9AYcWXG5ppmCa",
+          "renderModuleFilePath": "plasmic/copy_of_copy_of_lhp_3_30_23/PlasmicDisposable8.tsx",
+          "importSpec": {
+            "modulePath": "../pages/disposable-8.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_copy_of_lhp_3_30_23/PlasmicDisposable8.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
         }
       ],
       "icons": [
@@ -1717,6 +1730,6 @@
   "nextjsConfig": {
     "pagesDir": "../pages"
   },
-  "cliVersion": "0.1.282",
-  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.282/dist/plasmic.schema.json"
+  "cliVersion": "0.1.283",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.283/dist/plasmic.schema.json"
 }

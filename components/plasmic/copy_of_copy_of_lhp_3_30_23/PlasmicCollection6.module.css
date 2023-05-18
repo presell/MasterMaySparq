@@ -1265,4 +1265,9 @@
 .cwAdvert2:global(.__wab_instance) {
   max-width: 100%;
   position: relative;
+  display: none;
+}
+.offer2:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
 }

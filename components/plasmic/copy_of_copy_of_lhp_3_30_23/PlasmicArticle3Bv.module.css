@@ -936,7 +936,7 @@
     font-size: 21px;
   }
 }
-.offer2:global(.__wab_instance) {
+.offer2__peUw9:global(.__wab_instance) {
   max-width: 100%;
   position: relative;
   margin-bottom: 30px;
@@ -4995,6 +4995,11 @@
   min-width: 0;
 }
 .cwAdvert2:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+  display: none;
+}
+.offer2__gkqBf:global(.__wab_instance) {
   max-width: 100%;
   position: relative;
 }
