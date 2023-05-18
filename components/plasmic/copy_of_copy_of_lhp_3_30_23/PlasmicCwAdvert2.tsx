@@ -344,6 +344,9 @@ function PlasmicCwAdvert2__RenderFunc(props: {
                     },
                     () =>
                       (({ variable, value, startIndex, deleteCount }) => {
+                        if (!variable) {
+                          return;
+                        }
                         const { objRoot, variablePath } = variable;
                         undefined;
                       })?.apply(null, [actionArgs]),
@@ -1528,6 +1531,28 @@ function PlasmicCwAdvert2__RenderFunc(props: {
               data-plasmic-name={"offer2"}
               data-plasmic-override={overrides.offer2}
               className={classNames("__wab_instance", sty.offer2)}
+              slot3={
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__knKuD
+                  )}
+                >
+                  {"SPECIAL OFFER"}
+                </div>
+              }
+              slot4={
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__yoU26
+                  )}
+                >
+                  {"FREE VITAMIN AIR"}
+                </div>
+              }
               slot5={
                 "Money-Back Guarantee: Better Flavor & Harder Hits or Your Money Back."
               }
@@ -1855,6 +1880,9 @@ function PlasmicCwAdvert2__RenderFunc(props: {
                           },
                           () =>
                             (({ variable, value, startIndex, deleteCount }) => {
+                              if (!variable) {
+                                return;
+                              }
                               const { objRoot, variablePath } = variable;
                               undefined;
                             })?.apply(null, [actionArgs]),
@@ -2295,6 +2323,9 @@ function PlasmicCwAdvert2__RenderFunc(props: {
                           },
                           () =>
                             (({ variable, value, startIndex, deleteCount }) => {
+                              if (!variable) {
+                                return;
+                              }
                               const { objRoot, variablePath } = variable;
                               undefined;
                             })?.apply(null, [actionArgs]),

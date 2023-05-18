@@ -61,6 +61,8 @@ export type PlasmicOffer2__OverridesType = {
   root?: p.Flex<"div">;
   announcementBar?: p.Flex<"div">;
   offer2?: p.Flex<typeof Offer2>;
+  offerDesktop?: p.Flex<"div">;
+  offerMobile?: p.Flex<"div">;
   offer22?: p.Flex<typeof Offer2>;
   _414PxImported?: p.Flex<"div">;
   div94?: p.Flex<"div">;
@@ -1509,10 +1511,10 @@ function PlasmicOffer2__RenderFunc(props: {
                   displayMaxWidth={"100%" as const}
                   displayMinHeight={"0" as const}
                   displayMinWidth={"0" as const}
-                  displayWidth={"auto" as const}
-                  loading={"lazy" as const}
+                  displayWidth={"100%" as const}
+                  loading={"eager" as const}
                   src={{
-                    src: "/plasmic/copy_of_copy_of_lhp_3_30_23/images/sparqBoxAnimationLoopShorterVersionwebp.webp",
+                    src: "/plasmic/copy_of_copy_of_lhp_3_30_23/images/sparqBoxAnimationLoopShorterVersiongif.gif",
                     fullWidth: 600,
                     fullHeight: 338,
                     aspectRatio: undefined
@@ -3991,60 +3993,185 @@ function PlasmicOffer2__RenderFunc(props: {
                   ) : null}
                 </div>
               ) : null}
-              <Offer2
-                data-plasmic-name={"offer2"}
-                data-plasmic-override={overrides.offer2}
-                className={classNames("__wab_instance", sty.offer2)}
-                slot5={
-                  "Money-Back Guarantee: Better Flavor & Harder Hits or Your Money Back."
-                }
-                slot7={
+              {true ? (
+                <Offer2
+                  data-plasmic-name={"offer2"}
+                  data-plasmic-override={overrides.offer2}
+                  className={classNames("__wab_instance", sty.offer2)}
+                  slot5={
+                    "Money-Back Guarantee: Better Flavor & Harder Hits or Your Money Back."
+                  }
+                  slot7={
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text___4Ooue
+                      )}
+                    >
+                      {hasVariant(globalVariants, "screen", "mobileOnly")
+                        ? "CLAIM FREE DEVICE 👉"
+                        : "CLAIM FREE DEVICE 👉"}
+                    </div>
+                  }
+                >
+                  <p.PlasmicLink
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.a,
+                      sty.link__aKpcG
+                    )}
+                    component={Link}
+                    href={`/disposable-offer`}
+                    platform={"nextjs"}
+                  >
+                    <p.PlasmicImg
+                      alt={""}
+                      className={classNames(sty.img__zSp1C)}
+                      displayHeight={
+                        hasVariant(globalVariants, "screen", "mobileOnly")
+                          ? ("auto" as const)
+                          : ("422px" as const)
+                      }
+                      displayMaxHeight={"none" as const}
+                      displayMaxWidth={"100%" as const}
+                      displayMinHeight={"0" as const}
+                      displayMinWidth={"0" as const}
+                      displayWidth={"auto" as const}
+                      loading={"lazy" as const}
+                      src={{
+                        src: "/plasmic/copy_of_copy_of_lhp_3_30_23/images/offersvg.svg",
+                        fullWidth: 76,
+                        fullHeight: 150,
+                        aspectRatio: 0.503546
+                      }}
+                    />
+                  </p.PlasmicLink>
+                </Offer2>
+              ) : null}
+              <div
+                data-plasmic-name={"offerDesktop"}
+                data-plasmic-override={overrides.offerDesktop}
+                className={classNames(projectcss.all, sty.offerDesktop)}
+              >
+                <div className={classNames(projectcss.all, sty.freeBox__dxPvj)}>
+                  <p.PlasmicLink
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.a,
+                      sty.link__l4K5D
+                    )}
+                    component={Link}
+                    href={`/disposable-offer`}
+                    platform={"nextjs"}
+                  >
+                    <p.PlasmicImg
+                      alt={""}
+                      className={classNames(sty.img__ooXR)}
+                      displayHeight={"423px" as const}
+                      displayMaxHeight={"none" as const}
+                      displayMaxWidth={"300px" as const}
+                      displayMinHeight={"0" as const}
+                      displayMinWidth={"0" as const}
+                      displayWidth={"auto" as const}
+                      loading={"lazy" as const}
+                      src={{
+                        src: "/plasmic/copy_of_copy_of_lhp_3_30_23/images/offersvg.svg",
+                        fullWidth: 76,
+                        fullHeight: 150,
+                        aspectRatio: 0.503546
+                      }}
+                    />
+                  </p.PlasmicLink>
+                </div>
+                <div className={classNames(projectcss.all, sty.freeBox__jquRt)}>
                   <div
                     className={classNames(
                       projectcss.all,
                       projectcss.__wab_text,
-                      sty.text___4Ooue
+                      sty.text__eSl7V
                     )}
                   >
-                    {hasVariant(globalVariants, "screen", "mobileOnly")
-                      ? "CLAIM FREE DEVICE 👉"
-                      : "CLAIM FREE DEVICE 👉"}
+                    {"SPECIAL OFFER"}
                   </div>
-                }
-              >
-                <p.PlasmicLink
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.a,
-                    sty.link__aKpcG
-                  )}
-                  component={Link}
-                  href={`/disposable-offer`}
-                  platform={"nextjs"}
-                >
-                  <p.PlasmicImg
-                    alt={""}
-                    className={classNames(sty.img__zSp1C)}
-                    displayHeight={
-                      hasVariant(globalVariants, "screen", "mobileOnly")
-                        ? ("auto" as const)
-                        : ("422px" as const)
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__rk0D
+                    )}
+                  >
+                    {"FREE VITAMIN AIR"}
+                  </div>
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text___0E0Rc
+                    )}
+                  >
+                    {
+                      "Money-Back Guarantee: Better Flavor & Harder Hits or Your Money Back."
                     }
-                    displayMaxHeight={"none" as const}
-                    displayMaxWidth={"100%" as const}
-                    displayMinHeight={"0" as const}
-                    displayMinWidth={"0" as const}
-                    displayWidth={"auto" as const}
-                    loading={"lazy" as const}
-                    src={{
-                      src: "/plasmic/copy_of_copy_of_lhp_3_30_23/images/offersvg.svg",
-                      fullWidth: 76,
-                      fullHeight: 150,
-                      aspectRatio: 0.503546
+                  </div>
+                  <button
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.button,
+                      projectcss.__wab_text,
+                      sty.button__uoK9T
+                    )}
+                    onClick={async event => {
+                      const $steps = {};
+                      $steps["goToCollection13"] = true
+                        ? (() => {
+                            const actionArgs = {
+                              destination: __wrapUserFunction(
+                                {
+                                  type: "InteractionArgLoc",
+                                  actionName: "navigation",
+                                  interactionUuid: "WopyecNftY",
+                                  componentUuid: "6O_sz714mBswDr",
+                                  argName: "destination"
+                                },
+                                () => `/disposable-offer`
+                              )
+                            };
+                            return __wrapUserFunction(
+                              {
+                                type: "InteractionLoc",
+                                actionName: "navigation",
+                                interactionUuid: "WopyecNftY",
+                                componentUuid: "6O_sz714mBswDr"
+                              },
+                              () =>
+                                (({ destination }) => {
+                                  __nextRouter?.push(destination);
+                                })?.apply(null, [actionArgs]),
+                              actionArgs
+                            );
+                          })()
+                        : undefined;
+                      if (
+                        typeof $steps["goToCollection13"] === "object" &&
+                        typeof $steps["goToCollection13"].then === "function"
+                      ) {
+                        $steps["goToCollection13"] = await __wrapUserPromise(
+                          {
+                            type: "InteractionLoc",
+                            actionName: "navigation",
+                            interactionUuid: "WopyecNftY",
+                            componentUuid: "6O_sz714mBswDr"
+                          },
+                          $steps["goToCollection13"]
+                        );
+                      }
                     }}
-                  />
-                </p.PlasmicLink>
-              </Offer2>
+                  >
+                    {"CLAIM FREE DEVICE  👉"}
+                  </button>
+                </div>
+              </div>
             </div>
           ) : null}
         </div>
@@ -7033,62 +7160,189 @@ function PlasmicOffer2__RenderFunc(props: {
                 sty.text___0YjRf
               )}
             >
-              {"0% Nic / 100% Flavor / Lab-Tested / Vitamins / Recyclable\n"}
+              {"0% Nic / 100% Flavor / Lab-Tested / Vitamins / Recyclable"}
             </div>
-            <Offer2
-              data-plasmic-name={"offer22"}
-              data-plasmic-override={overrides.offer22}
-              className={classNames("__wab_instance", sty.offer22)}
-              slot5={
-                "Money-Back Guarantee: Better Flavor & Harder Hits or Your Money Back."
-              }
-              slot7={
+            <div
+              data-plasmic-name={"offerMobile"}
+              data-plasmic-override={overrides.offerMobile}
+              className={classNames(projectcss.all, sty.offerMobile)}
+            >
+              <div className={classNames(projectcss.all, sty.freeBox__rsEe4)}>
+                <p.PlasmicLink
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.a,
+                    sty.link__t3FT0
+                  )}
+                  component={Link}
+                  href={`/disposable-offer`}
+                  platform={"nextjs"}
+                >
+                  <p.PlasmicImg
+                    alt={""}
+                    className={classNames(sty.img___3FtwN)}
+                    displayHeight={"auto" as const}
+                    displayMaxHeight={"none" as const}
+                    displayMaxWidth={"none" as const}
+                    displayMinHeight={"0" as const}
+                    displayMinWidth={"0" as const}
+                    displayWidth={"120px" as const}
+                    loading={"lazy" as const}
+                    src={{
+                      src: "/plasmic/copy_of_copy_of_lhp_3_30_23/images/offersvg.svg",
+                      fullWidth: 76,
+                      fullHeight: 150,
+                      aspectRatio: 0.503546
+                    }}
+                  />
+                </p.PlasmicLink>
+              </div>
+              <div className={classNames(projectcss.all, sty.freeBox__hfxOq)}>
                 <div
                   className={classNames(
                     projectcss.all,
                     projectcss.__wab_text,
-                    sty.text__uch3T
+                    sty.text__s8Byi
                   )}
                 >
-                  {hasVariant(globalVariants, "screen", "mobileOnly")
-                    ? "CLAIM FREE DEVICE  👉"
-                    : "CLAIM FREE DEVICE 👉"}
+                  {"SPECIAL OFFER"}
                 </div>
-              }
-            >
-              <p.PlasmicLink
-                className={classNames(
-                  projectcss.all,
-                  projectcss.a,
-                  sty.link__lKgx7
-                )}
-                component={Link}
-                href={`/disposable-offer`}
-                platform={"nextjs"}
-              >
-                <p.PlasmicImg
-                  alt={""}
-                  className={classNames(sty.img__vHeCe)}
-                  displayHeight={
-                    hasVariant(globalVariants, "screen", "mobileOnly")
-                      ? ("auto" as const)
-                      : ("422px" as const)
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__k7MQq
+                  )}
+                >
+                  {"FREE VITAMIN AIR"}
+                </div>
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text___3An48
+                  )}
+                >
+                  {
+                    "Money-Back Guarantee: Better Flavor & Harder Hits or Your Money Back."
                   }
-                  displayMaxHeight={"none" as const}
-                  displayMaxWidth={"100%" as const}
-                  displayMinHeight={"0" as const}
-                  displayMinWidth={"0" as const}
-                  displayWidth={"auto" as const}
-                  loading={"lazy" as const}
-                  src={{
-                    src: "/plasmic/copy_of_copy_of_lhp_3_30_23/images/offersvg.svg",
-                    fullWidth: 76,
-                    fullHeight: 150,
-                    aspectRatio: 0.503546
+                </div>
+                <button
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.button,
+                    projectcss.__wab_text,
+                    sty.button__ksk3C
+                  )}
+                  onClick={async event => {
+                    const $steps = {};
+                    $steps["goToCollection13"] = true
+                      ? (() => {
+                          const actionArgs = {
+                            destination: __wrapUserFunction(
+                              {
+                                type: "InteractionArgLoc",
+                                actionName: "navigation",
+                                interactionUuid: "KpiTt0Z31f1",
+                                componentUuid: "6O_sz714mBswDr",
+                                argName: "destination"
+                              },
+                              () => `/disposable-offer`
+                            )
+                          };
+                          return __wrapUserFunction(
+                            {
+                              type: "InteractionLoc",
+                              actionName: "navigation",
+                              interactionUuid: "KpiTt0Z31f1",
+                              componentUuid: "6O_sz714mBswDr"
+                            },
+                            () =>
+                              (({ destination }) => {
+                                __nextRouter?.push(destination);
+                              })?.apply(null, [actionArgs]),
+                            actionArgs
+                          );
+                        })()
+                      : undefined;
+                    if (
+                      typeof $steps["goToCollection13"] === "object" &&
+                      typeof $steps["goToCollection13"].then === "function"
+                    ) {
+                      $steps["goToCollection13"] = await __wrapUserPromise(
+                        {
+                          type: "InteractionLoc",
+                          actionName: "navigation",
+                          interactionUuid: "KpiTt0Z31f1",
+                          componentUuid: "6O_sz714mBswDr"
+                        },
+                        $steps["goToCollection13"]
+                      );
+                    }
                   }}
-                />
-              </p.PlasmicLink>
-            </Offer2>
+                >
+                  {"CLAIM FREE DEVICE  👉"}
+                </button>
+              </div>
+            </div>
+            {(
+              hasVariant(globalVariants, "screen", "mobileOnly") ? true : true
+            ) ? (
+              <Offer2
+                data-plasmic-name={"offer22"}
+                data-plasmic-override={overrides.offer22}
+                className={classNames("__wab_instance", sty.offer22)}
+                slot5={
+                  "Money-Back Guarantee: Better Flavor & Harder Hits or Your Money Back."
+                }
+                slot7={
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__uch3T
+                    )}
+                  >
+                    {hasVariant(globalVariants, "screen", "mobileOnly")
+                      ? "CLAIM FREE DEVICE  👉"
+                      : "CLAIM FREE DEVICE 👉"}
+                  </div>
+                }
+              >
+                <p.PlasmicLink
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.a,
+                    sty.link__lKgx7
+                  )}
+                  component={Link}
+                  href={`/disposable-offer`}
+                  platform={"nextjs"}
+                >
+                  <p.PlasmicImg
+                    alt={""}
+                    className={classNames(sty.img__vHeCe)}
+                    displayHeight={
+                      hasVariant(globalVariants, "screen", "mobileOnly")
+                        ? ("auto" as const)
+                        : ("422px" as const)
+                    }
+                    displayMaxHeight={"none" as const}
+                    displayMaxWidth={"100%" as const}
+                    displayMinHeight={"0" as const}
+                    displayMinWidth={"0" as const}
+                    displayWidth={"auto" as const}
+                    loading={"lazy" as const}
+                    src={{
+                      src: "/plasmic/copy_of_copy_of_lhp_3_30_23/images/offersvg.svg",
+                      fullWidth: 76,
+                      fullHeight: 150,
+                      aspectRatio: 0.503546
+                    }}
+                  />
+                </p.PlasmicLink>
+              </Offer2>
+            ) : null}
             {(
               hasVariant(globalVariants, "screen", "mobileOnly") ? true : true
             ) ? (
@@ -11574,6 +11828,8 @@ const PlasmicDescendants = {
     "root",
     "announcementBar",
     "offer2",
+    "offerDesktop",
+    "offerMobile",
     "offer22",
     "_414PxImported",
     "div94",
@@ -11916,8 +12172,10 @@ const PlasmicDescendants = {
     "privacyPolicyTermsConditions2"
   ],
 
-  announcementBar: ["announcementBar", "offer2"],
+  announcementBar: ["announcementBar", "offer2", "offerDesktop"],
   offer2: ["offer2"],
+  offerDesktop: ["offerDesktop"],
+  offerMobile: ["offerMobile"],
   offer22: ["offer22"],
   _414PxImported: [
     "_414PxImported",
@@ -14229,6 +14487,8 @@ type NodeDefaultElementType = {
   root: "div";
   announcementBar: "div";
   offer2: typeof Offer2;
+  offerDesktop: "div";
+  offerMobile: "div";
   offer22: typeof Offer2;
   _414PxImported: "div";
   div94: "div";
@@ -14634,6 +14894,8 @@ export const PlasmicOffer2 = Object.assign(
     // Helper components rendering sub-elements
     announcementBar: makeNodeComponent("announcementBar"),
     offer2: makeNodeComponent("offer2"),
+    offerDesktop: makeNodeComponent("offerDesktop"),
+    offerMobile: makeNodeComponent("offerMobile"),
     offer22: makeNodeComponent("offer22"),
     _414PxImported: makeNodeComponent("_414PxImported"),
     div94: makeNodeComponent("div94"),

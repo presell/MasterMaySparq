@@ -541,6 +541,9 @@ function PlasmicArticle4Bv__RenderFunc(props: {
                         },
                         () =>
                           (({ variable, value, startIndex, deleteCount }) => {
+                            if (!variable) {
+                              return;
+                            }
                             const { objRoot, variablePath } = variable;
                             undefined;
                           })?.apply(null, [actionArgs]),
@@ -1750,6 +1753,9 @@ function PlasmicArticle4Bv__RenderFunc(props: {
                                   startIndex,
                                   deleteCount
                                 }) => {
+                                  if (!variable) {
+                                    return;
+                                  }
                                   const { objRoot, variablePath } = variable;
                                   undefined;
                                 })?.apply(null, [actionArgs]),
@@ -2209,6 +2215,9 @@ function PlasmicArticle4Bv__RenderFunc(props: {
                                   startIndex,
                                   deleteCount
                                 }) => {
+                                  if (!variable) {
+                                    return;
+                                  }
                                   const { objRoot, variablePath } = variable;
                                   undefined;
                                 })?.apply(null, [actionArgs]),

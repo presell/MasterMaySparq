@@ -3,12 +3,13 @@
   flex-direction: column;
   position: relative;
   width: 100%;
-  height: auto;
+  height: 100%;
   align-content: flex-start;
   justify-items: center;
   justify-content: flex-start;
   align-items: center;
   min-width: 0;
+  min-height: 0;
   grid-template-columns:
     1fr minmax(0, var(--plsmc-wide-chunk)) var(--plsmc-viewport-gap)
     min(

@@ -1010,8 +1010,9 @@
   position: relative;
   object-fit: cover;
   max-width: 100%;
-  width: auto;
+  width: 100%;
   height: 100%;
+  min-width: 0;
   min-height: 0;
 }
 .img___8T001 > picture > img {
@@ -2655,7 +2656,7 @@
   height: auto;
   max-width: 100%;
   min-width: 0;
-  padding: 8px;
+  padding: 8px 8px 8px 16px;
 }
 .text___4NizA {
   position: relative;
@@ -2739,7 +2740,7 @@
   height: auto;
   max-width: 100%;
   min-width: 0;
-  padding: 8px;
+  padding: 16px;
 }
 .text__dq3UL {
   position: relative;
@@ -2823,7 +2824,7 @@
   height: auto;
   max-width: 100%;
   min-width: 0;
-  padding: 8px;
+  padding: 16px;
 }
 .text__n8ZF1 {
   position: relative;
@@ -2907,7 +2908,7 @@
   height: auto;
   max-width: 100%;
   min-width: 0;
-  padding: 8px;
+  padding: 16px;
 }
 .text__w5Hjz {
   position: relative;
@@ -2991,7 +2992,7 @@
   height: auto;
   max-width: 100%;
   min-width: 0;
-  padding: 8px;
+  padding: 16px;
 }
 .text__i7UIo {
   position: relative;
@@ -3088,7 +3089,7 @@
   margin-top: 1px;
   background: #ffffff;
   min-width: 0;
-  padding: 70px 8px 8px;
+  padding: 70px 8px 35px;
 }
 .text___2Cwss {
   position: relative;
@@ -3160,7 +3161,8 @@
   max-width: 100%;
   background: #ffffff;
   min-width: 0;
-  padding: 8px;
+  padding: 0px;
+  margin: 0px 0px 35px;
 }
 .freeBox__iQn2F {
   flex-direction: row;
@@ -4103,6 +4105,7 @@
   position: relative;
   margin-bottom: 30px;
   width: auto;
+  display: none;
 }
 .link__aKpcG {
   position: relative;
@@ -4180,6 +4183,109 @@
   .text___4Ooue {
     font-size: 16px;
   }
+}
+.offerDesktop {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  padding: 20px;
+  border: 5px solid #e4e4da;
+}
+.freeBox__dxPvj {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  margin-right: 50px;
+  padding: 0px;
+}
+.link__l4K5D {
+  position: relative;
+  display: flex;
+}
+.img__ooXR {
+  object-fit: contain;
+  max-width: 300px;
+  height: 423px;
+}
+.img__ooXR > picture > img {
+  object-fit: contain;
+}
+.img__ooXR > :global(.__wab_img-spacer) > img {
+  object-fit: contain;
+}
+.freeBox__jquRt {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+.text__eSl7V {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 350px;
+  color: #f62929;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 10px;
+  min-width: 0;
+}
+.text__rk0D {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 350px;
+  color: #202428;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 10px;
+  min-width: 0;
+}
+.text___0E0Rc {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 350px;
+  color: #000000;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 10px;
+  min-width: 0;
+}
+.button__uoK9T {
+  position: relative;
+  width: 100%;
+  height: 51px;
+  margin-top: 6px;
+  margin-bottom: 10px;
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: #ffffff;
+  background: #7ec00a;
+  max-width: 298px;
+  min-width: 0;
+  flex-shrink: 0;
+  border-radius: 5px;
 }
 .freeBox__qOuwp {
   position: relative;
@@ -7231,7 +7337,7 @@
   height: auto;
   max-width: 100%;
   min-width: 0;
-  padding: 8px;
+  padding: 16px;
 }
 .text___0UmgK {
   position: relative;
@@ -7497,7 +7603,7 @@
   height: auto;
   max-width: 100%;
   min-width: 0;
-  padding: 8px;
+  padding: 16px;
 }
 .text___84Yxj {
   position: relative;
@@ -7580,7 +7686,7 @@
   height: auto;
   max-width: 100%;
   min-width: 0;
-  padding: 8px;
+  padding: 16px;
 }
 .text__chBfS {
   position: relative;
@@ -7756,10 +7862,112 @@
   padding-bottom: 15px;
   min-height: 0;
 }
+.offerMobile {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  align-self: flex-end;
+  padding: 4px;
+  border: 5px solid #e4e4da;
+}
+.freeBox__rsEe4 {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: auto;
+  height: auto;
+  margin-right: 0px;
+  padding: 0px;
+}
+.link__t3FT0 {
+  position: relative;
+  display: flex;
+  width: auto;
+  height: auto;
+}
+.img___3FtwN {
+  object-fit: contain;
+  width: 120px;
+  height: auto;
+  flex-shrink: 0;
+}
+.img___3FtwN > picture > img {
+  object-fit: contain;
+}
+.img___3FtwN > :global(.__wab_img-spacer) > img {
+  object-fit: contain;
+}
+.freeBox__hfxOq {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: auto;
+  height: auto;
+  max-width: 210px;
+  padding: 0px;
+  margin: 0px;
+}
+.text__s8Byi {
+  position: relative;
+  height: auto;
+  color: #f62929;
+  font-size: 23px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.text__k7MQq {
+  position: relative;
+  height: auto;
+  color: #202428;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.text___3An48 {
+  position: relative;
+  height: auto;
+  color: #000000;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.button__ksk3C {
+  position: relative;
+  width: 100%;
+  height: 51px;
+  margin-top: 6px;
+  margin-bottom: 10px;
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: #ffffff;
+  background: #7ec00a;
+  max-width: 298px;
+  min-width: 0;
+  flex-shrink: 0;
+  border-radius: 5px;
+}
 .offer22:global(.__wab_instance) {
   max-width: 100%;
   position: relative;
   margin-bottom: 30px;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .offer22:global(.__wab_instance) {
+    display: none;
+  }
 }
 .link__lKgx7 {
   position: relative;

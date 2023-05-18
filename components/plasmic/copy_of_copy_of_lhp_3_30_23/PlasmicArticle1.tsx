@@ -482,6 +482,9 @@ function PlasmicArticle1__RenderFunc(props: {
                         },
                         () =>
                           (({ variable, value, startIndex, deleteCount }) => {
+                            if (!variable) {
+                              return;
+                            }
                             const { objRoot, variablePath } = variable;
                             undefined;
                           })?.apply(null, [actionArgs]),
@@ -1213,6 +1216,9 @@ function PlasmicArticle1__RenderFunc(props: {
                                         startIndex,
                                         deleteCount
                                       }) => {
+                                        if (!variable) {
+                                          return;
+                                        }
                                         const { objRoot, variablePath } =
                                           variable;
                                         undefined;
@@ -1704,6 +1710,9 @@ function PlasmicArticle1__RenderFunc(props: {
                                         startIndex,
                                         deleteCount
                                       }) => {
+                                        if (!variable) {
+                                          return;
+                                        }
                                         const { objRoot, variablePath } =
                                           variable;
                                         undefined;

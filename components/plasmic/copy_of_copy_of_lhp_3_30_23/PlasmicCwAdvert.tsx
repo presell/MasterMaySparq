@@ -502,6 +502,9 @@ function PlasmicCwAdvert__RenderFunc(props: {
                     },
                     () =>
                       (({ variable, value, startIndex, deleteCount }) => {
+                        if (!variable) {
+                          return;
+                        }
                         const { objRoot, variablePath } = variable;
                         undefined;
                       })?.apply(null, [actionArgs]),
@@ -1744,6 +1747,9 @@ function PlasmicCwAdvert__RenderFunc(props: {
                                     startIndex,
                                     deleteCount
                                   }) => {
+                                    if (!variable) {
+                                      return;
+                                    }
                                     const { objRoot, variablePath } = variable;
                                     undefined;
                                   })?.apply(null, [actionArgs]),
@@ -2223,6 +2229,9 @@ function PlasmicCwAdvert__RenderFunc(props: {
                                     startIndex,
                                     deleteCount
                                   }) => {
+                                    if (!variable) {
+                                      return;
+                                    }
                                     const { objRoot, variablePath } = variable;
                                     undefined;
                                   })?.apply(null, [actionArgs]),

@@ -105,25 +105,27 @@ function PlasmicDisposable7__RenderFunc(props: {
         }
       `}</style>
 
-      <div
-        data-plasmic-name={"root"}
-        data-plasmic-override={overrides.root}
-        data-plasmic-root={true}
-        data-plasmic-for-node={forNode}
-        className={classNames(
-          projectcss.all,
-          projectcss.root_reset,
-          projectcss.plasmic_default_styles,
-          projectcss.plasmic_mixins,
-          projectcss.plasmic_tokens,
-          sty.root
-        )}
-      >
-        <Offer2
-          data-plasmic-name={"offer2"}
-          data-plasmic-override={overrides.offer2}
-          className={classNames("__wab_instance", sty.offer2)}
-        />
+      <div className={projectcss.plasmic_page_wrapper}>
+        <div
+          data-plasmic-name={"root"}
+          data-plasmic-override={overrides.root}
+          data-plasmic-root={true}
+          data-plasmic-for-node={forNode}
+          className={classNames(
+            projectcss.all,
+            projectcss.root_reset,
+            projectcss.plasmic_default_styles,
+            projectcss.plasmic_mixins,
+            projectcss.plasmic_tokens,
+            sty.root
+          )}
+        >
+          <Offer2
+            data-plasmic-name={"offer2"}
+            data-plasmic-override={overrides.offer2}
+            className={classNames("__wab_instance", sty.offer2)}
+          />
+        </div>
       </div>
     </React.Fragment>
   ) as React.ReactElement | null;
