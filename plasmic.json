@@ -739,6 +739,19 @@
           "cssFilePath": "plasmic/copy_of_copy_of_lhp_3_30_23/PlasmicDisposable8.module.css",
           "scheme": "blackbox",
           "componentType": "page"
+        },
+        {
+          "id": "6lihKYwqi4",
+          "name": "Disposable9",
+          "type": "managed",
+          "projectId": "nufvo23EJ9AYcWXG5ppmCa",
+          "renderModuleFilePath": "plasmic/copy_of_copy_of_lhp_3_30_23/PlasmicDisposable9.tsx",
+          "importSpec": {
+            "modulePath": "../pages/disposable-9.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_copy_of_lhp_3_30_23/PlasmicDisposable9.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
         }
       ],
       "icons": [
