@@ -4943,7 +4943,7 @@ function PlasmicOffer2__RenderFunc(props: {
               displayWidth={"auto" as const}
               loading={"lazy" as const}
               src={{
-                src: "/plasmic/copy_of_copy_of_lhp_3_30_23/images/sparqBoxAnimationLoopShorterVersionwebp.webp",
+                src: "/plasmic/copy_of_copy_of_lhp_3_30_23/images/sparqBoxAnimationLoopShorterVersiongif.gif",
                 fullWidth: 600,
                 fullHeight: 338,
                 aspectRatio: undefined
@@ -12171,7 +12171,6 @@ const PlasmicDescendants = {
     "_2022CopyrightBySparq2",
     "privacyPolicyTermsConditions2"
   ],
-
   announcementBar: ["announcementBar", "offer2", "offerDesktop"],
   offer2: ["offer2"],
   offerDesktop: ["offerDesktop"],
@@ -12518,7 +12517,6 @@ const PlasmicDescendants = {
     "_2022CopyrightBySparq2",
     "privacyPolicyTermsConditions2"
   ],
-
   div94: [
     "div94",
     "div95",
@@ -12526,20 +12524,17 @@ const PlasmicDescendants = {
     "specialOfferClaimThisOneTimeOfferTryVitaminAirAtAFractionOfTheRegularPriceToday2",
     "freeShipping4"
   ],
-
   div95: [
     "div95",
     "label4",
     "specialOfferClaimThisOneTimeOfferTryVitaminAirAtAFractionOfTheRegularPriceToday2",
     "freeShipping4"
   ],
-
   label4: ["label4"],
   specialOfferClaimThisOneTimeOfferTryVitaminAirAtAFractionOfTheRegularPriceToday2:
     [
       "specialOfferClaimThisOneTimeOfferTryVitaminAirAtAFractionOfTheRegularPriceToday2"
     ],
-
   freeShipping4: ["freeShipping4"],
   div96: [
     "div96",
@@ -12570,7 +12565,6 @@ const PlasmicDescendants = {
     "bannerrevE286F02653C5463D95E17D983A6A0996Png2",
     "div101"
   ],
-
   div97: [
     "div97",
     "sparqLogoFinal031RemovebgPreview3B7Bc87C264B43D389924155C29D48C3Png2",
@@ -12599,15 +12593,12 @@ const PlasmicDescendants = {
     "bannerrevE286F02653C5463D95E17D983A6A0996Png2",
     "div101"
   ],
-
   sparqLogoFinal031RemovebgPreview3B7Bc87C264B43D389924155C29D48C3Png2: [
     "sparqLogoFinal031RemovebgPreview3B7Bc87C264B43D389924155C29D48C3Png2"
   ],
-
   vitaminAirIsTheOnlyEffectiveNicAlternativeYouNeed: [
     "vitaminAirIsTheOnlyEffectiveNicAlternativeYouNeed"
   ],
-
   ul8: [
     "ul8",
     "li18",
@@ -12619,12 +12610,10 @@ const PlasmicDescendants = {
     "li21",
     "_0NicLabTestedVitaminsRecyclable2"
   ],
-
   li18: ["li18", "reducesCravingsForNicFromTheFirstPuff2"],
   reducesCravingsForNicFromTheFirstPuff2: [
     "reducesCravingsForNicFromTheFirstPuff2"
   ],
-
   li19: ["li19", "providesAStrongAndLastingThroatHit2"],
   providesAStrongAndLastingThroatHit2: ["providesAStrongAndLastingThroatHit2"],
   li20: ["li20", "eachDeviceProvides300Puffs2"],
@@ -12636,7 +12625,6 @@ const PlasmicDescendants = {
     [
       "vitaminAirIsJamPackedWithNaturalVitaminsAminoAcidsAndHealingHerbsToHelpYouQuitNicForGood2"
     ],
-
   div98: [
     "div98",
     "div99",
@@ -12651,7 +12639,6 @@ const PlasmicDescendants = {
     "bannerrevE286F02653C5463D95E17D983A6A0996Png2",
     "div101"
   ],
-
   div99: [
     "div99",
     "p6",
@@ -12662,7 +12649,6 @@ const PlasmicDescendants = {
     "handsvg5",
     "paymentlogopng3"
   ],
-
   p6: ["p6", "starpng7", "_485BasedOn1000Reviews7"],
   starpng7: ["starpng7"],
   _485BasedOn1000Reviews7: ["_485BasedOn1000Reviews7"],
@@ -12674,7 +12660,6 @@ const PlasmicDescendants = {
   bannerrevE286F02653C5463D95E17D983A6A0996Png2: [
     "bannerrevE286F02653C5463D95E17D983A6A0996Png2"
   ],
-
   div101: ["div101"],
   ul9: [
     "ul9",
@@ -12685,28 +12670,22 @@ const PlasmicDescendants = {
     "asfeaturedin49Bda2Aea3Ea94D3CBd4F7D2Ad76Ae608Png2",
     "entrepreneurLogo484Ccefe4C854084Bc8C12Af7A590Ec0Png2"
   ],
-
   asFeaturedIn2: ["asFeaturedIn2"],
   _5A18637B3A18271Ae9Cd636B177C5B2464F6C4A1DB6C85C4Eb7Fb4A85Png2: [
     "_5A18637B3A18271Ae9Cd636B177C5B2464F6C4A1DB6C85C4Eb7Fb4A85Png2"
   ],
-
   _800PxIndiegogoLogo87E824Db34F744159219Ab56Dca36549Png2: [
     "_800PxIndiegogoLogo87E824Db34F744159219Ab56Dca36549Png2"
   ],
-
   _1200PxScientificAmericanLogosvg9440Dc46Eee24228B6A5E91E5B0C8581Png2: [
     "_1200PxScientificAmericanLogosvg9440Dc46Eee24228B6A5E91E5B0C8581Png2"
   ],
-
   asfeaturedin49Bda2Aea3Ea94D3CBd4F7D2Ad76Ae608Png2: [
     "asfeaturedin49Bda2Aea3Ea94D3CBd4F7D2Ad76Ae608Png2"
   ],
-
   entrepreneurLogo484Ccefe4C854084Bc8C12Af7A590Ec0Png2: [
     "entrepreneurLogo484Ccefe4C854084Bc8C12Af7A590Ec0Png2"
   ],
-
   div102: [
     "div102",
     "div103",
@@ -12730,7 +12709,6 @@ const PlasmicDescendants = {
     "_14",
     "exhaleAndWatchTheUrgeToSmokeSlowlyDriftAway2"
   ],
-
   div103: [
     "div103",
     "inhaleWithConfidence2",
@@ -12753,7 +12731,6 @@ const PlasmicDescendants = {
     "_14",
     "exhaleAndWatchTheUrgeToSmokeSlowlyDriftAway2"
   ],
-
   inhaleWithConfidence2: ["inhaleWithConfidence2"],
   h24: ["h24", "useVitaminAir3", "useVitaminAir4", "inThreeEasySteps2"],
   useVitaminAir3: ["useVitaminAir3", "useVitaminAir4"],
@@ -12762,7 +12739,6 @@ const PlasmicDescendants = {
   confidenceeFdabb2F063604Ed78F96Dc94Bfa29F15Png2: [
     "confidenceeFdabb2F063604Ed78F96Dc94Bfa29F15Png2"
   ],
-
   div104: [
     "div104",
     "div105",
@@ -12778,46 +12754,39 @@ const PlasmicDescendants = {
     "_14",
     "exhaleAndWatchTheUrgeToSmokeSlowlyDriftAway2"
   ],
-
   div105: [
     "div105",
     "div106",
     "_12",
     "placeTheVitaminAirDeviceAgainstYourLips2"
   ],
-
   div106: ["div106", "_12"],
   _12: ["_12"],
   placeTheVitaminAirDeviceAgainstYourLips2: [
     "placeTheVitaminAirDeviceAgainstYourLips2"
   ],
-
   div107: [
     "div107",
     "div108",
     "_13",
     "inhaleYourDeliciousStrawberryOrVanillaFlavor2"
   ],
-
   div108: ["div108", "_13"],
   _13: ["_13"],
   inhaleYourDeliciousStrawberryOrVanillaFlavor2: [
     "inhaleYourDeliciousStrawberryOrVanillaFlavor2"
   ],
-
   div109: [
     "div109",
     "div110",
     "_14",
     "exhaleAndWatchTheUrgeToSmokeSlowlyDriftAway2"
   ],
-
   div110: ["div110", "_14"],
   _14: ["_14"],
   exhaleAndWatchTheUrgeToSmokeSlowlyDriftAway2: [
     "exhaleAndWatchTheUrgeToSmokeSlowlyDriftAway2"
   ],
-
   div111: [
     "div111",
     "div112",
@@ -12836,13 +12805,11 @@ const PlasmicDescendants = {
     "handsvg6",
     "paymentlogo40976E39C5C646C8Be427D059A418536Png3"
   ],
-
   div112: [
     "div112",
     "formulatedWithZeroNic3",
     "replaceNicWithLifeEnhancingVitamins"
   ],
-
   formulatedWithZeroNic3: ["formulatedWithZeroNic3"],
   replaceNicWithLifeEnhancingVitamins: ["replaceNicWithLifeEnhancingVitamins"],
   div113: [
@@ -12859,21 +12826,17 @@ const PlasmicDescendants = {
     "handsvg6",
     "paymentlogo40976E39C5C646C8Be427D059A418536Png3"
   ],
-
   rechargeWithVitaminsAminoAcidsAndHerbsTraditionallyFoundInSupplementsThatElevateMentalAndPhysicalEndurance:
     [
       "rechargeWithVitaminsAminoAcidsAndHerbsTraditionallyFoundInSupplementsThatElevateMentalAndPhysicalEndurance"
     ],
-
   sparqBoxAnimationLoopShorterVersiongif2: [
     "sparqBoxAnimationLoopShorterVersiongif2"
   ],
-
   byTradingInNicAndHarmfulChemicalsForExtensivelyResearchedNutraceuticalIngredientsSparqIsImaginingTheEvolutionOfInhalationWhereWellnessIsTheUltimateGoalOurPatentedDeviceVitaminAirIsSustainablyDesignedToImproveTheLivesOfUsersThroughPositiveLifestyleChangesAndSocialInteractionsTeamingUpWithTopScientificMindsSparqContinuesToResearchTheRealmOfVitaminAndHerbalAbsorptionThroughTheLungsWeSpareNoExpenseInOurCommitmentToProducingMeaningfulAndTransformativeInnovations:
     [
       "byTradingInNicAndHarmfulChemicalsForExtensivelyResearchedNutraceuticalIngredientsSparqIsImaginingTheEvolutionOfInhalationWhereWellnessIsTheUltimateGoalOurPatentedDeviceVitaminAirIsSustainablyDesignedToImproveTheLivesOfUsersThroughPositiveLifestyleChangesAndSocialInteractionsTeamingUpWithTopScientificMindsSparqContinuesToResearchTheRealmOfVitaminAndHerbalAbsorptionThroughTheLungsWeSpareNoExpenseInOurCommitmentToProducingMeaningfulAndTransformativeInnovations"
     ],
-
   div114: [
     "div114",
     "p7",
@@ -12884,7 +12847,6 @@ const PlasmicDescendants = {
     "handsvg6",
     "paymentlogo40976E39C5C646C8Be427D059A418536Png3"
   ],
-
   p7: ["p7", "starpng8", "_485BasedOn1000Reviews8"],
   starpng8: ["starpng8"],
   _485BasedOn1000Reviews8: ["_485BasedOn1000Reviews8"],
@@ -12894,7 +12856,6 @@ const PlasmicDescendants = {
   paymentlogo40976E39C5C646C8Be427D059A418536Png3: [
     "paymentlogo40976E39C5C646C8Be427D059A418536Png3"
   ],
-
   div115: [
     "div115",
     "div116",
@@ -12931,7 +12892,6 @@ const PlasmicDescendants = {
     "acaiBerry2",
     "metabolismBooster2"
   ],
-
   div116: [
     "div116",
     "div117",
@@ -12967,21 +12927,17 @@ const PlasmicDescendants = {
     "acaiBerry2",
     "metabolismBooster2"
   ],
-
   div117: [
     "div117",
     "organicVegetableGlycerinAndNaturalFlavors2",
     "vitaminAirsCarefullyDesignedFormulaHelpsYouQuitForGood2"
   ],
-
   organicVegetableGlycerinAndNaturalFlavors2: [
     "organicVegetableGlycerinAndNaturalFlavors2"
   ],
-
   vitaminAirsCarefullyDesignedFormulaHelpsYouQuitForGood2: [
     "vitaminAirsCarefullyDesignedFormulaHelpsYouQuitForGood2"
   ],
-
   div118: [
     "div118",
     "div119",
@@ -13013,14 +12969,12 @@ const PlasmicDescendants = {
     "acaiBerry2",
     "metabolismBooster2"
   ],
-
   div119: [
     "div119",
     "myProjectpng2",
     "betaAlanine2",
     "increasesExerciseCapacity3"
   ],
-
   myProjectpng2: ["myProjectpng2"],
   betaAlanine2: ["betaAlanine2"],
   increasesExerciseCapacity3: ["increasesExerciseCapacity3"],
@@ -13034,7 +12988,6 @@ const PlasmicDescendants = {
     "blueberryExtract2",
     "protectsAgainstAging2"
   ],
-
   myProject5Png2: ["myProject5Png2"],
   blueberryExtract2: ["blueberryExtract2"],
   protectsAgainstAging2: ["protectsAgainstAging2"],
@@ -13052,7 +13005,6 @@ const PlasmicDescendants = {
     "grapeSeed2",
     "increasesExerciseCapacity4"
   ],
-
   myProject6Png2: ["myProject6Png2"],
   grapeSeed2: ["grapeSeed2"],
   increasesExerciseCapacity4: ["increasesExerciseCapacity4"],
@@ -13091,7 +13043,6 @@ const PlasmicDescendants = {
     "handsvg7",
     "paymentlogo40976E39C5C646C8Be427D059A418536Png4"
   ],
-
   div127: [
     "div127",
     "promissoryCommitment2",
@@ -13122,13 +13073,11 @@ const PlasmicDescendants = {
     "handsvg7",
     "paymentlogo40976E39C5C646C8Be427D059A418536Png4"
   ],
-
   promissoryCommitment2: ["promissoryCommitment2"],
   formulatedWithZeroNic4: ["formulatedWithZeroNic4"],
   promissory700Cba5AB8264B5C8106987450146E3Bpng2: [
     "promissory700Cba5AB8264B5C8106987450146E3Bpng2"
   ],
-
   div128: [
     "div128",
     "div129",
@@ -13147,7 +13096,6 @@ const PlasmicDescendants = {
     "environmentallyFriendly2",
     "weSeekToInspireACultureOfEnvironmentalSensitivityThroughSustainableProductDesignAndEthicalBusinessPractices2"
   ],
-
   div129: [
     "div129",
     "promissoryitem1Cb038F041A2B4C5BAf9995014E9Df68Fpng2",
@@ -13155,23 +13103,19 @@ const PlasmicDescendants = {
     "safetyPractices2",
     "weLiveByTheHippocraticOathFirstDoNoHarmOurProductsAreMadeWithoutNicOrHarmfulChemicals2"
   ],
-
   promissoryitem1Cb038F041A2B4C5BAf9995014E9Df68Fpng2: [
     "promissoryitem1Cb038F041A2B4C5BAf9995014E9Df68Fpng2"
   ],
-
   div130: [
     "div130",
     "safetyPractices2",
     "weLiveByTheHippocraticOathFirstDoNoHarmOurProductsAreMadeWithoutNicOrHarmfulChemicals2"
   ],
-
   safetyPractices2: ["safetyPractices2"],
   weLiveByTheHippocraticOathFirstDoNoHarmOurProductsAreMadeWithoutNicOrHarmfulChemicals2:
     [
       "weLiveByTheHippocraticOathFirstDoNoHarmOurProductsAreMadeWithoutNicOrHarmfulChemicals2"
     ],
-
   div131: [
     "div131",
     "promissoryitem2D1Cae334B4Ca4E4F8FbaFc3F796C4042Png2",
@@ -13179,23 +13123,19 @@ const PlasmicDescendants = {
     "extensiveScientificResearch2",
     "weEnsureAllOurProductsAreFormulatedUnderTheDirectionOfARenownedInhalationToxicologistAndTestedByAnIsoAccreditedIndependentLaboratory2"
   ],
-
   promissoryitem2D1Cae334B4Ca4E4F8FbaFc3F796C4042Png2: [
     "promissoryitem2D1Cae334B4Ca4E4F8FbaFc3F796C4042Png2"
   ],
-
   div132: [
     "div132",
     "extensiveScientificResearch2",
     "weEnsureAllOurProductsAreFormulatedUnderTheDirectionOfARenownedInhalationToxicologistAndTestedByAnIsoAccreditedIndependentLaboratory2"
   ],
-
   extensiveScientificResearch2: ["extensiveScientificResearch2"],
   weEnsureAllOurProductsAreFormulatedUnderTheDirectionOfARenownedInhalationToxicologistAndTestedByAnIsoAccreditedIndependentLaboratory2:
     [
       "weEnsureAllOurProductsAreFormulatedUnderTheDirectionOfARenownedInhalationToxicologistAndTestedByAnIsoAccreditedIndependentLaboratory2"
     ],
-
   div133: [
     "div133",
     "promissoryitem3674784Dc9A844F5A8B80175Ce3E3F7C3Png2",
@@ -13203,23 +13143,19 @@ const PlasmicDescendants = {
     "environmentallyFriendly2",
     "weSeekToInspireACultureOfEnvironmentalSensitivityThroughSustainableProductDesignAndEthicalBusinessPractices2"
   ],
-
   promissoryitem3674784Dc9A844F5A8B80175Ce3E3F7C3Png2: [
     "promissoryitem3674784Dc9A844F5A8B80175Ce3E3F7C3Png2"
   ],
-
   div134: [
     "div134",
     "environmentallyFriendly2",
     "weSeekToInspireACultureOfEnvironmentalSensitivityThroughSustainableProductDesignAndEthicalBusinessPractices2"
   ],
-
   environmentallyFriendly2: ["environmentallyFriendly2"],
   weSeekToInspireACultureOfEnvironmentalSensitivityThroughSustainableProductDesignAndEthicalBusinessPractices2:
     [
       "weSeekToInspireACultureOfEnvironmentalSensitivityThroughSustainableProductDesignAndEthicalBusinessPractices2"
     ],
-
   div135: [
     "div135",
     "p8",
@@ -13230,7 +13166,6 @@ const PlasmicDescendants = {
     "handsvg7",
     "paymentlogo40976E39C5C646C8Be427D059A418536Png4"
   ],
-
   p8: ["p8", "starpng9", "_485BasedOn1000Reviews9"],
   starpng9: ["starpng9"],
   _485BasedOn1000Reviews9: ["_485BasedOn1000Reviews9"],
@@ -13240,7 +13175,6 @@ const PlasmicDescendants = {
   paymentlogo40976E39C5C646C8Be427D059A418536Png4: [
     "paymentlogo40976E39C5C646C8Be427D059A418536Png4"
   ],
-
   div136: [
     "div136",
     "div137",
@@ -13273,7 +13207,6 @@ const PlasmicDescendants = {
     "leftarrpng2",
     "rightarrpng2"
   ],
-
   div137: [
     "div137",
     "customerReviews2",
@@ -13282,7 +13215,6 @@ const PlasmicDescendants = {
     "starpng10",
     "_485BasedOn1000Reviews10"
   ],
-
   customerReviews2: ["customerReviews2"],
   dontJustTakeOurWordForIt2: ["dontJustTakeOurWordForIt2"],
   h56: ["h56", "starpng10", "_485BasedOn1000Reviews10"],
@@ -13313,7 +13245,6 @@ const PlasmicDescendants = {
     "leftarrpng2",
     "rightarrpng2"
   ],
-
   div139: [
     "div139",
     "button13",
@@ -13326,7 +13257,6 @@ const PlasmicDescendants = {
     "button8",
     "button9"
   ],
-
   button13: ["button13"],
   button14: ["button14"],
   button15: ["button15"],
@@ -13348,7 +13278,6 @@ const PlasmicDescendants = {
     "verifypng4",
     "verifiedBuyer4"
   ],
-
   div141: [
     "div141",
     "div142",
@@ -13360,7 +13289,6 @@ const PlasmicDescendants = {
     "verifypng4",
     "verifiedBuyer4"
   ],
-
   div142: [
     "div142",
     "sidereview1Png2",
@@ -13371,13 +13299,11 @@ const PlasmicDescendants = {
     "verifypng4",
     "verifiedBuyer4"
   ],
-
   sidereview1Png2: ["sidereview1Png2"],
   bestAlternativeToSmoking2: ["bestAlternativeToSmoking2"],
   iSmokdForOver29YearsNowNotOnlyHaveIQuitButImDoingSomethingHealthy2: [
     "iSmokdForOver29YearsNowNotOnlyHaveIQuitButImDoingSomethingHealthy2"
   ],
-
   isaiahS2: ["isaiahS2"],
   h57: ["h57", "verifypng4", "verifiedBuyer4"],
   verifypng4: ["verifypng4"],
@@ -13401,7 +13327,6 @@ const PlasmicDescendants = {
     "handsvg8",
     "paymentlogopng4"
   ],
-
   group8Png2: ["group8Png2"],
   div144: ["div144", "satisfactionGuarantee2", "_15DaysMoneyBackGuarantee2"],
   satisfactionGuarantee2: ["satisfactionGuarantee2"],
@@ -13418,7 +13343,6 @@ const PlasmicDescendants = {
     "handsvg8",
     "paymentlogopng4"
   ],
-
   p9: ["p9", "starpng11", "_485BasedOn1000Reviews11"],
   starpng11: ["starpng11"],
   _485BasedOn1000Reviews11: ["_485BasedOn1000Reviews11"],
@@ -13444,7 +13368,6 @@ const PlasmicDescendants = {
     "div151",
     "divheading52"
   ],
-
   h25: ["h25", "questions3", "br", "weveGotYouCovered2"],
   questions3: ["questions3"],
   br: ["br"],
@@ -13462,7 +13385,6 @@ const PlasmicDescendants = {
     "div151",
     "divheading52"
   ],
-
   div147: ["div147", "divheading12"],
   divheading12: ["divheading12"],
   div148: ["div148", "divheading22"],
@@ -13606,7 +13528,6 @@ const PlasmicDescendants = {
     "handpng6",
     "paymenticonspng6"
   ],
-
   div152: [
     "div152",
     "div153",
@@ -13739,7 +13660,6 @@ const PlasmicDescendants = {
     "handpng6",
     "paymenticonspng6"
   ],
-
   div153: [
     "div153",
     "getYourVitaminAirToday2",
@@ -13748,7 +13668,6 @@ const PlasmicDescendants = {
     "_485BasedOn1000Reviews12",
     "_0Nic100FlavorLabTestedVitaminsRecyclable2"
   ],
-
   getYourVitaminAirToday2: ["getYourVitaminAirToday2"],
   h58: ["h58", "starpng12", "_485BasedOn1000Reviews12"],
   starpng12: ["starpng12"],
@@ -13756,7 +13675,6 @@ const PlasmicDescendants = {
   _0Nic100FlavorLabTestedVitaminsRecyclable2: [
     "_0Nic100FlavorLabTestedVitaminsRecyclable2"
   ],
-
   div154: [
     "div154",
     "div155",
@@ -13882,7 +13800,6 @@ const PlasmicDescendants = {
     "handpng6",
     "paymenticonspng6"
   ],
-
   div155: [
     "div155",
     "form4",
@@ -13929,7 +13846,6 @@ const PlasmicDescendants = {
     "freeshippng3",
     "freeShipping5"
   ],
-
   form4: [
     "form4",
     "label5",
@@ -13975,7 +13891,6 @@ const PlasmicDescendants = {
     "freeshippng3",
     "freeShipping5"
   ],
-
   label5: ["label5"],
   starterPackSave202: ["starterPackSave202"],
   _3Png2: ["_3Png2"],
@@ -13993,7 +13908,6 @@ const PlasmicDescendants = {
     "span8",
     "vanilla4"
   ],
-
   chooseFlavor3: ["chooseFlavor3"],
   ul10: [
     "ul10",
@@ -14007,7 +13921,6 @@ const PlasmicDescendants = {
     "span8",
     "vanilla4"
   ],
-
   li22: ["li22", "div157", "span7", "i12", "strawberry4"],
   div157: ["div157", "span7", "i12"],
   span7: ["span7", "i12"],
@@ -14031,7 +13944,6 @@ const PlasmicDescendants = {
     "i15",
     "_1PureDeviceAgeDefying2"
   ],
-
   whatsIncluded3Devices2: ["whatsIncluded3Devices2"],
   ul11: [
     "ul11",
@@ -14045,7 +13957,6 @@ const PlasmicDescendants = {
     "i15",
     "_1PureDeviceAgeDefying2"
   ],
-
   li24: ["li24", "i13", "_1FuelDeviceEnergyEnhancing2"],
   i13: ["i13"],
   _1FuelDeviceEnergyEnhancing2: ["_1FuelDeviceEnergyEnhancing2"],
@@ -14072,7 +13983,6 @@ const PlasmicDescendants = {
     "freeshippng3",
     "freeShipping5"
   ],
-
   div161: ["div161", "_15", "input4", "div162", "_16", "_17"],
   _15: ["_15"],
   input4: ["input4", "div162", "_16"],
@@ -14133,7 +14043,6 @@ const PlasmicDescendants = {
     "freeshippng4",
     "freeShipping6"
   ],
-
   form5: [
     "form5",
     "label6",
@@ -14180,7 +14089,6 @@ const PlasmicDescendants = {
     "freeshippng4",
     "freeShipping6"
   ],
-
   label6: ["label6"],
   proPackSave302: ["proPackSave302"],
   _6Png2: ["_6Png2"],
@@ -14199,7 +14107,6 @@ const PlasmicDescendants = {
     "i17",
     "vanilla5"
   ],
-
   includesBothFlavors2: ["includesBothFlavors2"],
   ul12: [
     "ul12",
@@ -14214,7 +14121,6 @@ const PlasmicDescendants = {
     "i17",
     "vanilla5"
   ],
-
   li27: ["li27", "div166", "span9", "i16", "strawberry5"],
   div166: ["div166", "span9", "i16"],
   span9: ["span9", "i16"],
@@ -14239,7 +14145,6 @@ const PlasmicDescendants = {
     "i20",
     "_1PureDeviceInEachFlavorAgeDefying2"
   ],
-
   whatsIncluded6Devices2: ["whatsIncluded6Devices2"],
   ul13: [
     "ul13",
@@ -14253,19 +14158,16 @@ const PlasmicDescendants = {
     "i20",
     "_1PureDeviceInEachFlavorAgeDefying2"
   ],
-
   li29: ["li29", "i18", "_1FuelDeviceInEachFlavorEnergyEnhancing2"],
   i18: ["i18"],
   _1FuelDeviceInEachFlavorEnergyEnhancing2: [
     "_1FuelDeviceInEachFlavorEnergyEnhancing2"
   ],
-
   li30: ["li30", "i19", "_1MeltDeviceInEachFlavorMetabolismBoosting2"],
   i19: ["i19"],
   _1MeltDeviceInEachFlavorMetabolismBoosting2: [
     "_1MeltDeviceInEachFlavorMetabolismBoosting2"
   ],
-
   li31: ["li31", "i20", "_1PureDeviceInEachFlavorAgeDefying2"],
   i20: ["i20"],
   _1PureDeviceInEachFlavorAgeDefying2: ["_1PureDeviceInEachFlavorAgeDefying2"],
@@ -14286,7 +14188,6 @@ const PlasmicDescendants = {
     "freeshippng4",
     "freeShipping6"
   ],
-
   div170: ["div170", "_18", "input5", "div171", "_19", "_20"],
   _18: ["_18"],
   input5: ["input5", "div171", "_19"],
@@ -14335,7 +14236,6 @@ const PlasmicDescendants = {
     "handpng6",
     "paymenticonspng6"
   ],
-
   form6: [
     "form6",
     "single2",
@@ -14370,7 +14270,6 @@ const PlasmicDescendants = {
     "handpng6",
     "paymenticonspng6"
   ],
-
   single2: ["single2"],
   getyourvitamin1Png2: ["getyourvitamin1Png2"],
   div174: [
@@ -14387,7 +14286,6 @@ const PlasmicDescendants = {
     "span12",
     "vanilla6"
   ],
-
   chooseFlavor4: ["chooseFlavor4"],
   ul14: [
     "ul14",
@@ -14401,7 +14299,6 @@ const PlasmicDescendants = {
     "span12",
     "vanilla6"
   ],
-
   li32: ["li32", "div175", "span11", "i21", "strawberry6"],
   div175: ["div175", "span11", "i21"],
   span11: ["span11", "i21"],
@@ -14418,7 +14315,6 @@ const PlasmicDescendants = {
     "i22",
     "fuelDeviceEnergyEnhancing2"
   ],
-
   whatsIncluded1Device2: ["whatsIncluded1Device2"],
   li34: ["li34", "i22", "fuelDeviceEnergyEnhancing2"],
   i22: ["i22"],
@@ -14437,7 +14333,6 @@ const PlasmicDescendants = {
     "handpng6",
     "paymenticonspng6"
   ],
-
   div179: ["div179", "_21", "input6", "div180", "_22", "_23"],
   _21: ["_21"],
   input6: ["input6", "div180", "_22"],
@@ -14457,7 +14352,6 @@ const PlasmicDescendants = {
     "_2022CopyrightBySparq2",
     "privacyPolicyTermsConditions2"
   ],
-
   div181: [
     "div181",
     "div182",
@@ -14466,7 +14360,6 @@ const PlasmicDescendants = {
     "_2022CopyrightBySparq2",
     "privacyPolicyTermsConditions2"
   ],
-
   div182: [
     "div182",
     "sparqLogoFinal0311Png2",
@@ -14474,7 +14367,6 @@ const PlasmicDescendants = {
     "_2022CopyrightBySparq2",
     "privacyPolicyTermsConditions2"
   ],
-
   sparqLogoFinal0311Png2: ["sparqLogoFinal0311Png2"],
   div183: ["div183", "_2022CopyrightBySparq2", "privacyPolicyTermsConditions2"],
   _2022CopyrightBySparq2: ["_2022CopyrightBySparq2"],
@@ -14836,7 +14728,6 @@ type NodeOverridesType<T extends NodeNameType> = Pick<
   PlasmicOffer2__OverridesType,
   DescendantsType<T>
 >;
-
 type NodeComponentProps<T extends NodeNameType> =
   // Explicitly specify variants, args, and overrides as objects
   {
